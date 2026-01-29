@@ -3,8 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Suites Landing Page</title>
+    <link
+      rel="shortcut icon"
+      href="./Images/favicon-32x32.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="styles.css" />
+    <title>Suites Landing Page</title>
   </head>
   <body>
     <header class="header__main">
@@ -13,5 +18,99 @@
       </div>
       <button class="btn btn-secondary">Request Beta Access</button>
     </header>
+    <main>
+      <section class="hero">
+        <article class="hero__content">
+          <h1>
+            A <strong>super solution </strong>for your
+            <strong>business.</strong>
+            <p>
+              Our marketing and sales automations help you scale your outreach
+              to get more leads for your company.
+            </p>
+            <button class="btn btn-primary">Request Beta Access</button>
+          </h1>
+        </article>
+        <article class="hero__image">
+          <picture>
+            <source
+              media="(min-width: 1024px)"
+              srcset="./Images/image-hero-portrait@2x.webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="./Images/image-hero-portrait.webp"
+            />
+            <img src="./Images/image-hero-landscape.webp" alt="" />
+          </picture>
+        </article>
+        <article class="hero__stats">
+          <article class="hero__stats-info">
+            <h2>2K+</h2>
+            <p>Companies</p>
+          </article>
+          <article class="hero__stats-info">
+            <h2>8</h2>
+            <p>Languages</p>
+          </article>
+          <article class="hero__stats-info">
+            <h2>1.2M</h2>
+            <p>Leads</p>
+          </article>
+        </article>
+      </section>
+      <section class="testimonial">
+        <article class="testimonial__image">
+          <picture>
+            <source
+              media="(min-width: 1024px)"
+              srcset="./Images/image-jeremy-large@2x.webp"
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="./Images/image-jeremy-large.webp"
+            />
+            <img
+              src="./Images/image-jeremy-small.webp"
+              alt="Image of jeremy, owner of the testimonial"
+            />
+          </picture>
+        </article>
+        <article class="testimonial__content">
+          <h2>It just works.</h2>
+          <p>
+            “I really like how it is an all-in-one solution that handle many of
+            the tasks that you would normally need separate tools to do the same
+            job. This thing is a miracle worker.”
+          </p>
+          <div class="testimonial__owner">
+            <h3>Jeremy Robinson</h3>
+            <p>CMO, Fylo</p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="main__footer">
+      <div class="footer__logo">
+        <img src="./Images/logo.svg" alt="logo at the footer of the document" />
+      </div>
+      <div class="footer__info">
+        <p>Copyright - Suite</p>
+      </div>
+      <div class="footer__icons">
+        <img
+          src="./Images/icon-facebook.svg"
+          alt="facebook icon linking to suites facebook page"
+        />
+        <img
+          src="./Images/icon-twitter.svg"
+          alt="twitter icon linking to suites twitter page"
+        />
+        <img
+          src="./Images/icon-instagram.svg"
+          alt="instagram icon linking to suites instagram page"
+        />
+      </div>
+    </footer>
   </body>
 </html>
