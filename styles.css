@@ -104,8 +104,7 @@ img {
   color: var(--neutral);
 }
 .btn-secondary {
-  /* background-color: var(--gradient-purple); */
-  transform: all 300ms ease;
+  transition: all 300ms ease;
 }
 .btn-secondary:hover {
   background: var(--gradient-purple);
